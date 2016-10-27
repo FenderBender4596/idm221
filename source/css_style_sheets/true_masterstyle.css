@@ -1,16 +1,27 @@
-header {
-	background-color: #ffffff;
-	color: #FFB000;
+html {
+	background-color: #adadad;
+	color: #ffffff;
 	font-family: 'Abel', sans-serif;
 }
 
-aside {
+#container {
+	padding-left: 10%;
+	padding-right: 10%; 
+	background-color: #000000;
+}
+#logo {
+	width: 30%;
+	height: 30%;
+}
+#aside {
 	background-color: #ffffff;
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
+	position: fixed;
+	left: 0;
 }
 
-body {
+#body {
 	background-color: #ffffff;
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
@@ -19,10 +30,10 @@ body {
 iframe
 {border: 0; width: 350px; height: 470px;}
 
-footer {
+#footer {
 	background-color: #ffffff;
 	color: #000000;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p{text-align: left;}
