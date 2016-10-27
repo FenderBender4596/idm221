@@ -1,0 +1,28 @@
+header {
+	background-color: #ffffff;
+	color: #FFB000;
+	font-family: 'Abel', sans-serif;
+}
+
+aside {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+}
+
+iframe
+{border: 0; width: 350px; height: 470px;}
+
+footer {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+}
+
+p{text-align: left;}

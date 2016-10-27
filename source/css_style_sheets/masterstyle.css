@@ -1,14 +1,19 @@
 header {
-	background-color: #00AEEF;
-	color: #FFB000;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+aside {
+	background-color: #ffffff;
+	color: #000000;
 }
 
 body {
-	background-color: #00AEEF;
-	color: #FFB000;
+	background-color: #ffffff;
+	color: #000000;
 }
 
 footer {
-	background-color: #FFB000;
-	color: #00AEEF;
+	background-color: #ffffff;
+	color: #000000;
 }
