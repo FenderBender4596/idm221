@@ -1,39 +1,66 @@
 html {
 	background-color: #adadad;
 	color: #ffffff;
-	font-family: 'Abel', sans-serif;
+	font-family: 'Abel', sans-serif;}
+
+#header {
+	background-color: #BEEBFF;
+	padding-left: 10%;
+	padding-right: 10%;
+	border-radius: 12px;
+	color: #000000;
 }
 
 #container {
 	padding-left: 10%;
 	padding-right: 10%; 
-	background-color: #000000;
-}
+	background-color: #000000;}
+
 #logo {
-	width: 30%;
-	height: 30%;
+	width: 20%;
+	height: 20%;
+	padding-left: 10%;
+	padding-right: 90%;
+	background-color: #BEEBFF
 }
+
 #aside {
-	background-color: #ffffff;
+	background-color: #F9A0FF;
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
+	font-size: 80%;
 	position: fixed;
-	left: 0;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 40%;
+	border-bottom-left-radius: 10%;
+	border-bottom-right-radius: 40%;
+	padding-left: 8px;
+	padding-right: 8px;
+	background-size: 60%;
 }
 
 #body {
-	background-color: #ffffff;
+	background-color: #B6A6E8;
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
 }
 
 iframe
-{border: 0; width: 350px; height: 470px;}
+{
+	border: 0; width: 350px; height: 470px;
+	border-radius: 16px;
+	}
+
 
 #footer {
-	background-color: #ffffff;
+	background-color: #B6A6E8;
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
+	list-style: circle;
 }
 
 p{text-align: left;}
+
+@media screen and (max-width: 768px) {
+	aside {}
+}
