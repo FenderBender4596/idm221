@@ -1,5 +1,5 @@
 html {
-	background-color: rgba(255,0,255,.40);
+	background-color: #000000;
 	color: #ffffff;
 	font-family: 'Abel', sans-serif;
 	background-image: url(../backgroundimage2.jpg);
@@ -9,16 +9,15 @@ html {
 	background-color: #6acccd;
 	padding-left: 10%;
 	padding-right: 10%;
-	border-radius: 12px;
 	color: #000000;
 	margin: 0 auto;
-	font-size: 18px;
-	border: 2px solid orange;
-
+	font-size: 20px;
+	color: #c23720;
+	line-height: 200%
 }
 
 #tokenjewishfriend {
-	float: right;
+	position: right;
 }
 
 
@@ -27,14 +26,14 @@ html {
 	padding-right: 10%; 
 	background-color: #d45218;
 	background-image: url(../backgroundimage1.jpg);
-
+	margin: 0 auto;
 }
 
 #logo {
-	width: 20%;
-	height: 20%;
-	padding-left: 15%;
-	padding-right: 85%;
+	width: 50%;
+	height: 50%;
+	padding-left: 27%;
+	padding-right: 73%;
 	background-color: #6acccd;
 }
 
@@ -42,25 +41,34 @@ html {
 	background-color: #c23720;
 	color: #d45218;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 80%;
+	font-size: 90%;
 	position: fixed;
 	border-top-right-radius: 10%;
 	border-top-left-radius: 10%;
-	border-bottom-left-radius: 10%;
-	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 40%;
+	border-bottom-right-radius: 40%;
 	padding-left: 8px;
 	padding-right: 8px;
 	background-size: 60%;
 	border: 2px solid orange;
+	text-decoration: none;
+	line-height: 90%;
+	float: left;
 }
 
 #body {
-	background-color: #5b1327;
+	text-align: center;
+	background-color: rgba(91, 19, 39, .8);
 	color: #d45218;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	margin-top: 0;
-	justify-content: left;
+	border-top-right-radius: .5%;
+	border-top-left-radius: .5%;
+	border-bottom-left-radius: .5%;
+	border-bottom-right-radius: .5%;
+	justify-content: center;
+	border: 2px solid orange;
 }
 
 #portrait {
@@ -75,16 +83,50 @@ iframe
 	}
 
 
-#footer {
-	background-color: #5b1327;
+footer {
+	background-color: rgba(91, 19, 39, .8);
 	color: #d45218;
 	font-family: 'Open Sans', sans-serif;
 	list-style: circle;
 	margin: 0 auto;
+	position: center;
+	height: 200px;
+	width: auto;
+	font-size: 25%;
+	line-height: 90%;
+	border-color: orange;
 }
 
-p{text-align: left;}
+p {
+	text-align: justify;
+	word-spacing: 1.5;
+	margin: 0;
+	padding: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+}
 
 ul {
-	list-style-image: url(../guitarpickicon.png);
+	list-style: none;
+	text-align: left;
+	line-height: 300%
+}
+
+h1 {
+	position: center;
+	text-align: center;
+	text-indent: none;
+}
+
+a:visited {
+	color: white;
+	text-underline-position: none;
+}
+
+a:hover {
+	color: cyan;
+}
+
+a:active {
+	color: purple;
 }
