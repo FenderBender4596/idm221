@@ -6,7 +6,7 @@ html {
 }
 
 #header {
-	background-color: #6acccd;
+	background-color: rgba(106, 204, 205, .8);
 	padding-left: 10%;
 	padding-right: 10%;
 	color: #000000;
@@ -16,25 +16,22 @@ html {
 	line-height: 200%
 }
 
-#tokenjewishfriend {
-	position: right;
-}
-
-
 #container {
 	padding-left: 10%;
 	padding-right: 10%; 
 	background-color: #d45218;
-	background-image: url(../backgroundimage1.jpg);
+	background-image: url(../texture_copy.jpg);
 	margin: 0 auto;
+	border: 2px solid silver;
 }
 
 #logo {
-	width: 50%;
-	height: 50%;
-	padding-left: 27%;
-	padding-right: 73%;
-	background-color: #6acccd;
+	width: 30%;
+	height: 30%;
+	padding-left: 35.5%;
+	padding-right: 64.5%;
+	background-color: rgba(106, 204, 205, .8);
+	background-size: 10%;
 }
 
 #aside {
@@ -43,17 +40,16 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 90%;
 	position: fixed;
-	border-top-right-radius: 10%;
+	border-top-right-radius: 30%;
 	border-top-left-radius: 10%;
-	border-bottom-left-radius: 40%;
-	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
 	padding-left: 8px;
 	padding-right: 8px;
 	background-size: 60%;
-	border: 2px solid orange;
 	text-decoration: none;
 	line-height: 90%;
-	float: left;
+	float: right;
 }
 
 #body {
@@ -63,12 +59,8 @@ html {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	margin-top: 0;
-	border-top-right-radius: .5%;
-	border-top-left-radius: .5%;
-	border-bottom-left-radius: .5%;
-	border-bottom-right-radius: .5%;
 	justify-content: center;
-	border: 2px solid orange;
+	border: 2px solid purple;
 }
 
 #portrait {
@@ -94,11 +86,11 @@ footer {
 	width: auto;
 	font-size: 25%;
 	line-height: 90%;
-	border-color: orange;
+	border: 3px solid silver;
 }
 
 p {
-	text-align: justify;
+	text-align: justify center;
 	word-spacing: 1.5;
 	margin: 0;
 	padding: 0;
