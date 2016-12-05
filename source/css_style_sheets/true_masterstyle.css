@@ -6,13 +6,13 @@ html {
 }
 
 #header {
-	background-color: rgba(106, 204, 205, .8);
+	background-color: rgb(106, 204, 205);
 	padding-left: 10%;
 	padding-right: 10%;
 	color: #000000;
 	margin: 0 auto;
 	font-size: 20px;
-	color: #c23720;
+	color: solid orange;
 	line-height: 200%
 }
 
@@ -28,14 +28,14 @@ html {
 #logo {
 	width: 30%;
 	height: 30%;
-	padding-left: 35.5%;
-	padding-right: 64.5%;
-	background-color: rgba(106, 204, 205, .8);
+	margin-left: 35.5%;
+	margin-right: 64.5%;
+	background-color: rgb(106, 202, 205);
 	background-size: 10%;
 }
 
 #aside {
-	background-color: #c23720;
+	background-color: rgb(89, 19, 39);
 	color: #d45218;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 90%;
@@ -44,54 +44,59 @@ html {
 	border-top-left-radius: 10%;
 	border-bottom-left-radius: 20%;
 	border-bottom-right-radius: 20%;
-	padding-left: 8px;
-	padding-right: 8px;
+	padding-left: 2px;
+	padding-right: 12px;
 	background-size: 60%;
 	text-decoration: none;
 	line-height: 90%;
 	float: right;
+	border: 2px solid purple;
+	text-shadow: -3px 4px black;
 }
 
 #body {
 	text-align: center;
-	background-color: rgba(91, 19, 39, .8);
-	color: #d45218;
+	background-color: rgb(91, 19, 39);
+	color: #ffffff;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0 auto;
 	margin-top: 0;
-	justify-content: center;
-	border: 2px solid purple;
 }
 
 #portrait {
 	width: 40%;
 	height: 40%;
+	margin: 5%;
+}
+
+#frontpageimage{
+	margin: 5%;
 }
 
 iframe
 {
 	border: 0; width: 350px; height: 470px;
 	border-radius: 16px;
+	margin: 5%;
 	}
 
+/* remember to ask about iframe stuff */
 
 footer {
-	background-color: rgba(91, 19, 39, .8);
+	background-color: rgb(92, 19, 39);
 	color: #d45218;
 	font-family: 'Open Sans', sans-serif;
 	list-style: circle;
 	margin: 0 auto;
-	position: center;
+	position: static;
 	height: 200px;
 	width: auto;
 	font-size: 25%;
 	line-height: 90%;
-	border: 3px solid silver;
 }
 
 p {
-	text-align: justify center;
-	word-spacing: 1.5;
+	word-spacing: 0;
 	margin: 0;
 	padding: 0;
 	padding-left: 10%;
@@ -105,14 +110,12 @@ ul {
 }
 
 h1 {
-	position: center;
+	position: static;
 	text-align: center;
-	text-indent: none;
 }
 
 a:visited {
 	color: white;
-	text-underline-position: none;
 }
 
 a:hover {
