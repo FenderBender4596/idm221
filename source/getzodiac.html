@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<!--  
+  NOTE: Modern browsers support HTML5 form auto checks on DATE input. 
+  In Chrome browser, try entering an invaild date i.e. Feb 31, any year.
+-->
+
+<head>
+  <title>Bday Collector</title>
+  <link rel="stylesheet" href="css_style_sheets/main.css" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>Guilds Of Ravnica</h1>
+    <form onsubmit="return calZodiac();">
+      <p>
+       <!-- use an id and name of the same value to avoid confusion when manipulating objects-->
+       <!-- required perameter makes sure user enters all information needed into the form; v important-->
+        <input id="fname" name="fname" type="text" placeholder="First Name" required>
+        <input id="lname" name="lname" type="text" placeholder="Last Name" required>
+      </p>
+      <p>
+        <input id="bday" name="bday" type="date" required>
+      </p>
+      <p>
+        <input type="submit">
+      </p>
+    </form>
+    <div id="displayMsg">
+
+    </div>
+  </div>
+  <script src="j_s/java_script.js"></script>
+</body>
+
+</html>
